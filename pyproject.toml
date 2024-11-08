@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "main_1407"
+version = "0.1.0"
+description = "A personal assistant CLI tool"
+authors = ["Your Name"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"  
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+# Додаємо, щоб вимкнути пакетний режим
+package-mode = false
